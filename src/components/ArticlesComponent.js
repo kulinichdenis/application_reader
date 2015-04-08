@@ -12,7 +12,7 @@ var ArticlesComponent = React.createClass({
  
            return (
            <div className='articles'> 
-              <h3>{this.props.title}</h3></Link>
+              <Link to="article" params={{id: this.props.id}}><h3>{this.props.title}</h3></Link>
               <span>{this.props.text}</span>
              <div className="address">
                <a href={this.props.url}>{host.hostname}</a>
