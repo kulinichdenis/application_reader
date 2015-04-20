@@ -1,7 +1,7 @@
 # Application-Reader
     
 ## Description
-    Add articles base on url;
+    Add articles to use url web site;
     Delete articles;
     Search articles;
     
